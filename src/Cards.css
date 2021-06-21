@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  background-color: #674172;
+  font-family: sans-serif;
+}
+
+.cards {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.removeBtn {
+  display: none;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+}
+
+button {
+  background-color: #d5b8ff;
+  color: #674172;
+  padding: 14px 20px;
+  border: none;
+  margin: 5px auto;
+  border-radius: 4px;
+  cursor: pointer;
+}
