@@ -44,7 +44,7 @@ function Cards() {
       setCards((cards) => [...cards, newCard]);
 
       if (cardsRemaining === 0) {
-        console.log('hidden');
+        throw new Error('No cards remaining!');
       }
     } catch (err) {
       alert(err);
